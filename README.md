@@ -26,7 +26,7 @@ A Circular Meter View with smooth animation
 You can use [CocoaPods](http://cocoapods.org/) to install `CircularMeterView` by adding it to your `Podfile`:
 
 ```ruby
-pod 'CircularMeterView', '1.0'
+pod 'CircularMeterView', '1.1'
 ```
 
 To get the full benefits import `CircularMeterView` wherever you import UIKit
