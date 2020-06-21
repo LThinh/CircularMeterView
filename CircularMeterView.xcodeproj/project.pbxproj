@@ -10,8 +10,14 @@
 		32679168249F456700C0550D /* CircularMeterView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3267915E249F456700C0550D /* CircularMeterView.framework */; };
 		3267916D249F456700C0550D /* CircularMeterViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267916C249F456700C0550D /* CircularMeterViewTests.swift */; };
 		3267916F249F456700C0550D /* CircularMeterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 32679161249F456700C0550D /* CircularMeterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3267917A249F479E00C0550D /* CircularMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32679179249F479E00C0550D /* CircularMeterView.swift */; };
-		3267917D249F482700C0550D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267917C249F482700C0550D /* StringExtension.swift */; };
+		3267919D249F4B2A00C0550D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267919C249F4B2A00C0550D /* AppDelegate.swift */; };
+		326791A1249F4B2A00C0550D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326791A0249F4B2A00C0550D /* ViewController.swift */; };
+		326791A4249F4B2A00C0550D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326791A2249F4B2A00C0550D /* Main.storyboard */; };
+		326791A6249F4B2E00C0550D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326791A5249F4B2E00C0550D /* Assets.xcassets */; };
+		326791A9249F4B2E00C0550D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326791A7249F4B2E00C0550D /* LaunchScreen.storyboard */; };
+		326791AF249F4CF100C0550D /* CircularMeterView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3267915E249F456700C0550D /* CircularMeterView.framework */; };
+		326791B0249F4CF100C0550D /* CircularMeterView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3267915E249F456700C0550D /* CircularMeterView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		329B96FF249F514B00AF4856 /* CircularMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B96FE249F514B00AF4856 /* CircularMeterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,7 +28,28 @@
 			remoteGlobalIDString = 3267915D249F456700C0550D;
 			remoteInfo = CircularMeterView;
 		};
+		326791B1249F4CF100C0550D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32679155249F456700C0550D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3267915D249F456700C0550D;
+			remoteInfo = CircularMeterView;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		326791B3249F4CF200C0550D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				326791B0249F4CF100C0550D /* CircularMeterView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3267915E249F456700C0550D /* CircularMeterView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircularMeterView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,8 +58,14 @@
 		32679167249F456700C0550D /* CircularMeterViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularMeterViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3267916C249F456700C0550D /* CircularMeterViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularMeterViewTests.swift; sourceTree = "<group>"; };
 		3267916E249F456700C0550D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32679179249F479E00C0550D /* CircularMeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularMeterView.swift; sourceTree = "<group>"; };
-		3267917C249F482700C0550D /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		3267919A249F4B2A00C0550D /* CircularMeterViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularMeterViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3267919C249F4B2A00C0550D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		326791A0249F4B2A00C0550D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		326791A3249F4B2A00C0550D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		326791A5249F4B2E00C0550D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		326791A8249F4B2E00C0550D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		326791AA249F4B2E00C0550D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		329B96FE249F514B00AF4856 /* CircularMeterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularMeterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +84,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32679197249F4B2A00C0550D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326791AF249F4CF100C0550D /* CircularMeterView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,7 +100,9 @@
 			children = (
 				32679160249F456700C0550D /* CircularMeterView */,
 				3267916B249F456700C0550D /* CircularMeterViewTests */,
+				3267919B249F4B2A00C0550D /* CircularMeterViewDemo */,
 				3267915F249F456700C0550D /* Products */,
+				326791AE249F4CF100C0550D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +111,7 @@
 			children = (
 				3267915E249F456700C0550D /* CircularMeterView.framework */,
 				32679167249F456700C0550D /* CircularMeterViewTests.xctest */,
+				3267919A249F4B2A00C0550D /* CircularMeterViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,7 +122,6 @@
 				32679161249F456700C0550D /* CircularMeterView.h */,
 				32679162249F456700C0550D /* Info.plist */,
 				32679178249F459500C0550D /* Main */,
-				3267917B249F481200C0550D /* SupportingFiles */,
 			);
 			path = CircularMeterView;
 			sourceTree = "<group>";
@@ -95,17 +138,29 @@
 		32679178249F459500C0550D /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				32679179249F479E00C0550D /* CircularMeterView.swift */,
+				329B96FE249F514B00AF4856 /* CircularMeterView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		3267917B249F481200C0550D /* SupportingFiles */ = {
+		3267919B249F4B2A00C0550D /* CircularMeterViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3267917C249F482700C0550D /* StringExtension.swift */,
+				3267919C249F4B2A00C0550D /* AppDelegate.swift */,
+				326791A0249F4B2A00C0550D /* ViewController.swift */,
+				326791A2249F4B2A00C0550D /* Main.storyboard */,
+				326791A5249F4B2E00C0550D /* Assets.xcassets */,
+				326791A7249F4B2E00C0550D /* LaunchScreen.storyboard */,
+				326791AA249F4B2E00C0550D /* Info.plist */,
 			);
-			path = SupportingFiles;
+			path = CircularMeterViewDemo;
+			sourceTree = "<group>";
+		};
+		326791AE249F4CF100C0550D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +213,25 @@
 			productReference = 32679167249F456700C0550D /* CircularMeterViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		32679199249F4B2A00C0550D /* CircularMeterViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326791AB249F4B2E00C0550D /* Build configuration list for PBXNativeTarget "CircularMeterViewDemo" */;
+			buildPhases = (
+				32679196249F4B2A00C0550D /* Sources */,
+				32679197249F4B2A00C0550D /* Frameworks */,
+				32679198249F4B2A00C0550D /* Resources */,
+				326791B3249F4CF200C0550D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				326791B2249F4CF100C0550D /* PBXTargetDependency */,
+			);
+			name = CircularMeterViewDemo;
+			productName = CircularMeterViewDemo;
+			productReference = 3267919A249F4B2A00C0550D /* CircularMeterViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,6 +247,9 @@
 						LastSwiftMigration = 1140;
 					};
 					32679166249F456700C0550D = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					32679199249F4B2A00C0550D = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -192,6 +269,7 @@
 			targets = (
 				3267915D249F456700C0550D /* CircularMeterView */,
 				32679166249F456700C0550D /* CircularMeterViewTests */,
+				32679199249F4B2A00C0550D /* CircularMeterViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -211,6 +289,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32679198249F4B2A00C0550D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326791A9249F4B2E00C0550D /* LaunchScreen.storyboard in Resources */,
+				326791A6249F4B2E00C0550D /* Assets.xcassets in Resources */,
+				326791A4249F4B2A00C0550D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -218,8 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3267917D249F482700C0550D /* StringExtension.swift in Sources */,
-				3267917A249F479E00C0550D /* CircularMeterView.swift in Sources */,
+				329B96FF249F514B00AF4856 /* CircularMeterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +318,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32679196249F4B2A00C0550D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326791A1249F4B2A00C0550D /* ViewController.swift in Sources */,
+				3267919D249F4B2A00C0550D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -239,7 +335,31 @@
 			target = 3267915D249F456700C0550D /* CircularMeterView */;
 			targetProxy = 32679169249F456700C0550D /* PBXContainerItemProxy */;
 		};
+		326791B2249F4CF100C0550D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3267915D249F456700C0550D /* CircularMeterView */;
+			targetProxy = 326791B1249F4CF100C0550D /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		326791A2249F4B2A00C0550D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326791A3249F4B2A00C0550D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		326791A7249F4B2E00C0550D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326791A8249F4B2E00C0550D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		32679170249F456700C0550D /* Debug */ = {
@@ -293,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -350,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -451,6 +571,46 @@
 			};
 			name = Release;
 		};
+		326791AC249F4B2E00C0550D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S78UX6KB;
+				INFOPLIST_FILE = CircularMeterViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhle.CircularMeterViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		326791AD249F4B2E00C0550D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S78UX6KB;
+				INFOPLIST_FILE = CircularMeterViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhle.CircularMeterViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -477,6 +637,15 @@
 			buildConfigurations = (
 				32679176249F456700C0550D /* Debug */,
 				32679177249F456700C0550D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326791AB249F4B2E00C0550D /* Build configuration list for PBXNativeTarget "CircularMeterViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326791AC249F4B2E00C0550D /* Debug */,
+				326791AD249F4B2E00C0550D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
