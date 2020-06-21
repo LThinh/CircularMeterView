@@ -10,6 +10,8 @@
 		32679168249F456700C0550D /* CircularMeterView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3267915E249F456700C0550D /* CircularMeterView.framework */; };
 		3267916D249F456700C0550D /* CircularMeterViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267916C249F456700C0550D /* CircularMeterViewTests.swift */; };
 		3267916F249F456700C0550D /* CircularMeterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 32679161249F456700C0550D /* CircularMeterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3267917A249F479E00C0550D /* CircularMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32679179249F479E00C0550D /* CircularMeterView.swift */; };
+		3267917D249F482700C0550D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267917C249F482700C0550D /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		32679167249F456700C0550D /* CircularMeterViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularMeterViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3267916C249F456700C0550D /* CircularMeterViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularMeterViewTests.swift; sourceTree = "<group>"; };
 		3267916E249F456700C0550D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32679179249F479E00C0550D /* CircularMeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularMeterView.swift; sourceTree = "<group>"; };
+		3267917C249F482700C0550D /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 				32679161249F456700C0550D /* CircularMeterView.h */,
 				32679162249F456700C0550D /* Info.plist */,
 				32679178249F459500C0550D /* Main */,
+				3267917B249F481200C0550D /* SupportingFiles */,
 			);
 			path = CircularMeterView;
 			sourceTree = "<group>";
@@ -90,8 +95,17 @@
 		32679178249F459500C0550D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				32679179249F479E00C0550D /* CircularMeterView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		3267917B249F481200C0550D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3267917C249F482700C0550D /* StringExtension.swift */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +170,7 @@
 				TargetAttributes = {
 					3267915D249F456700C0550D = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 					32679166249F456700C0550D = {
 						CreatedOnToolsVersion = 11.4.1;
@@ -203,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3267917D249F482700C0550D /* StringExtension.swift in Sources */,
+				3267917A249F479E00C0550D /* CircularMeterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +365,7 @@
 		32679173249F456700C0550D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z2S78UX6KB;
@@ -364,6 +382,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.thinhle.circularmeterview;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -372,6 +391,7 @@
 		32679174249F456700C0550D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z2S78UX6KB;
@@ -396,6 +416,7 @@
 		32679176249F456700C0550D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z2S78UX6KB;
 				INFOPLIST_FILE = CircularMeterViewTests/Info.plist;
@@ -414,6 +435,7 @@
 		32679177249F456700C0550D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z2S78UX6KB;
 				INFOPLIST_FILE = CircularMeterViewTests/Info.plist;
