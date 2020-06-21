@@ -73,6 +73,7 @@
 			children = (
 				32679161249F456700C0550D /* CircularMeterView.h */,
 				32679162249F456700C0550D /* Info.plist */,
+				32679178249F459500C0550D /* Main */,
 			);
 			path = CircularMeterView;
 			sourceTree = "<group>";
@@ -84,6 +85,13 @@
 				3267916E249F456700C0550D /* Info.plist */,
 			);
 			path = CircularMeterViewTests;
+			sourceTree = "<group>";
+		};
+		32679178249F459500C0550D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,7 +361,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinhle.CircularMeterView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhle.circularmeterview;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -377,7 +385,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thinhle.CircularMeterView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhle.circularmeterview;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
