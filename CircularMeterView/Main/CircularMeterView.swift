@@ -21,21 +21,21 @@ public class CircularMeterView: UIView {
         case forward
     }
     
-    @IBInspectable var maxValue: Double = 360
+    @IBInspectable open var maxValue: Double = 360
     @IBInspectable private(set) var currentValue: Double = 0
     
-    @IBInspectable var startAngle: CGFloat = 0
-    @IBInspectable var endAngle: CGFloat = 360
+    @IBInspectable open var startAngle: CGFloat = 0
+    @IBInspectable open var endAngle: CGFloat = 360
     
-    @IBInspectable var lowerCircleWidth: CGFloat = 8
-    @IBInspectable var lowerColor: UIColor = .gray
+    @IBInspectable open var lowerCircleWidth: CGFloat = 8
+    @IBInspectable open var lowerColor: UIColor = .gray
     
-    @IBInspectable var upperCircleWidth: CGFloat = 10
-    @IBInspectable var upperColor: UIColor = .green
+    @IBInspectable open var upperCircleWidth: CGFloat = 10
+    @IBInspectable open var upperColor: UIColor = .green
     
-    @IBInspectable var colorShadow: UIColor = .black
-    @IBInspectable var radiusShadow: CGFloat = 0
-    @IBInspectable var offsetShadow: CGSize = .zero
+    @IBInspectable open var colorShadow: UIColor = .black
+    @IBInspectable open var radiusShadow: CGFloat = 0
+    @IBInspectable open var offsetShadow: CGSize = .zero
     
     private var radius: CGFloat = 0
     private var direction: Direction = .none
